@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState , useEffect} from 'react';
 import './App.css';
 import Welcome from './component/Welcome';
 import TaskList from './component/TaskList';
@@ -33,7 +33,15 @@ function App() {
    console.log("Updated tasks:", updatedTasks);
   setTasks(updatedTasks);
 }
+const [agents, setAgents] = useState ([]);
+        useEffect(()=> {
+        fetch("https://valorant-api.com/v1/agents")
+            .then((response) => response.json())
+            .then((data) => {
+                setApiData(data.data);
 
+            });
+        },[]);
   return(
     
   
