@@ -5,14 +5,10 @@ A simple task management app built with React and Vite to help users organise an
 ## Screenshots
 
 ### Main Interface
-<p align="center"> 
-    <img src = "./src/assets/MainAppinterface.jpeg" alt="Todoist main interface" width="600">
-</p>
+<img src="./Todoist/src/assets/MainAppinterface.jpeg" alt="Todoist Main Interface" width="600">
 
 ### Task List Demo
-<p align="center">
-  <img src="./src/assets/Tasklistdemo.jpeg" alt="Todoist Task List Demo" width="400">
-</p>
+<img src="./Todoist/src/assets/Tasklistdemo.jpeg" alt="Todoist Task List Demo" width="400">
 
 ## Built With
 - React
